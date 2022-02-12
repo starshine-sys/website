@@ -1,51 +1,51 @@
 {
-    "lyrics": "~What’s the use of escaping the future, when you can mold it into whatever you please?~",
-    "links": [
-        {
-            "name": "Discord",
-            "username": "starshine 🌠✨#0001"
-        },
-        {
-            "name": "GitHub",
-            "username": "starshine-sys",
-            "url": "https://github.com/starshine-sys/"
-        },
-        {
-            "name": "sr.ht",
-            "username": "~starshine-sys",
-            "url": "https://git.sr.ht/~starshine-sys/"
-        }
-    ],
-    "members": [
-        {
-            "name": "Olivia",
-            "pronouns": "she/it",
-            "avatar": "https://files.starshines.xyz/pk-avatars/xuyzl.png"
-        },
-        {
-            "name": "Hayley",
-            "pronouns": "she/her",
-            "avatar": "https://files.starshines.xyz/pk-avatars/pnxlb.png"
-        },
-        {
-            "name": "Meris",
-            "pronouns": "anything but she/her",
-            "avatar": "https://files.starshines.xyz/pk-avatars/qynjm.png"
-        },
-        {
-            "name": "Mira",
-            "pronouns": "she/her",
-            "avatar": "https://files.starshines.xyz/pk-avatars/xbbkc.png"
-        },
-        {
-            "name": "Robin",
-            "pronouns": "she/her",
-            "avatar": "https://files.starshines.xyz/pk-avatars/jlzwx.png"
-        },
-        {
-            "name": "Kat",
-            "pronouns": "she/they",
-            "avatar": "https://files.starshines.xyz/pk-avatars/jjmqu.png"
-        }
-    ]
+  "lyrics": "~What’s the use of escaping the future, when you can mold it into whatever you please?~",
+  "links": [
+    {
+      "name": "Discord",
+      "username": "starshine#0001"
+    },
+    {
+      "name": "GitHub",
+      "username": "starshine-sys",
+      "url": "https://github.com/starshine-sys/"
+    },
+    {
+      "name": "sr.ht",
+      "username": "~starshine-sys",
+      "url": "https://git.sr.ht/~starshine-sys/"
+    }
+  ],
+  "members": [
+    {
+      "name": "Olivia",
+      "pronouns": "she/her",
+      "avatar": "https://files.starshines.xyz/pk-avatars/xuyzl.png"
+    },
+    {
+      "name": "Hayley",
+      "pronouns": "she/her",
+      "avatar": "https://files.starshines.xyz/pk-avatars/pnxlb.png"
+    },
+    {
+      "name": "Meris",
+      "pronouns": "anything but she/her",
+      "avatar": "https://files.starshines.xyz/pk-avatars/qynjm.png"
+    },
+    {
+      "name": "Mira",
+      "pronouns": "she/her",
+      "avatar": "https://files.starshines.xyz/pk-avatars/xbbkc.png"
+    },
+    {
+      "name": "Robin",
+      "pronouns": "she/her",
+      "avatar": "https://files.starshines.xyz/pk-avatars/jlzwx.png"
+    },
+    {
+      "name": "Kat",
+      "pronouns": "she/they",
+      "avatar": "https://files.starshines.xyz/pk-avatars/jjmqu.png"
+    }
+  ]
 }

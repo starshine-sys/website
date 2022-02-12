@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 
-function Separator () {
-  return <hr className="my-2" />
+function Separator() {
+  return <hr className="my-2" />;
 }
 
-export default Separator
+export default Separator;
