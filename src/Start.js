@@ -3,7 +3,7 @@ import Front from "./Front";
 import Separator from "./Separator";
 import { LinkButton } from "./LinkButton";
 
-import { lyrics } from "./data.json";
+import data from "./data.json";
 import rain2 from "./rain2.gif";
 
 function Start() {
@@ -22,7 +22,7 @@ function Start() {
         </h1>
         <Separator />
         <p>
-          ♫ <em>{lyrics}</em>
+          ♫ <em>{data.lyrics}</em>
         </p>
         <Separator />
         <em>humanity is overrated</em>

@@ -3,14 +3,14 @@ import React from "react";
 import { InlineLink, LinkButton } from "./LinkButton";
 import Separator from "./Separator";
 
-import { links } from "./data.json";
+import data from "./data.json";
 
 function Links() {
   return (
     <div className="p-4">
       <h1 className="text-xl">links</h1>
       <ul>
-        {links.map((link) => (
+        {data.links.map((link) => (
           <li>
             <strong>{link.name}:</strong>{" "}
             {link.url ? (

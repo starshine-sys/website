@@ -13,7 +13,7 @@ class Front extends React.Component {
   }
 
   componentDidMount() {
-    fetch(`https://api.pluralkit.me/v1/s/${this.id}/fronters`)
+    fetch(`https://api.pluralkit.me/v2/systems/${this.id}/fronters`)
       .then((res) => res.json())
       .then(
         (result) => {

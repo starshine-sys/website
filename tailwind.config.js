@@ -9,5 +9,5 @@ module.exports = {
       typography: ["dark"],
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/typography")],
 };

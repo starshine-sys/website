@@ -1,8 +1,9 @@
 /* eslint-disable react/prop-types */
 import React from "react";
-import { members } from "./data.json";
+import data from "./data.json";
 import Separator from "./Separator";
 import { LinkButton } from "./LinkButton";
+import { Link } from "react-router-dom";
 
 function Fronters() {
   return (
@@ -16,7 +17,7 @@ function Fronters() {
       </div>
       <Separator />
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 py-2">
-        {members.map((m, i) => (
+        {data.members.map((m, i) => (
           <Member key={i} member={m} />
         ))}
       </div>
@@ -39,7 +40,9 @@ function Member(props) {
       ) : (
         ""
       )}
-      <h3 className="text-lg mt-2 mb-1">{props.member.name}</h3>
+      <Link to={"/" + props.member.name.toLowerCase()}>
+        <h3 className="text-lg mt-2 mb-1">{props.member.name}</h3>
+      </Link>
       <em>{props.member.pronouns}</em>
       <hr className="md:hidden my-2" />
     </div>

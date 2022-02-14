@@ -3,9 +3,11 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Start from "./Start";
 import rain from "./rain.jpg";
+import data from "./data.json";
 import About from "./About";
 import Fronters from "./Fronters";
 import Links from "./Links";
+import Member from "./Member";
 
 function App() {
   return (
@@ -26,6 +28,11 @@ function App() {
               <Route path="/links">
                 <Links />
               </Route>
+              {data.members.map((m, i) => (
+                <Route key={i} path={"/" + m.name.toLowerCase()}>
+                  <Member id={m.id} name={m.name} />
+                </Route>
+              ))}
               <Route path="/">
                 <Start />
               </Route>
