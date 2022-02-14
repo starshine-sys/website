@@ -36,7 +36,12 @@ function Member(props) {
   return (
     <div className="flex flex-col max-w-md justify-center text-center">
       {props.member.avatar ? (
-        <img className="w-2/3 mx-auto rounded-full" src={props.member.avatar} />
+        <Link to={"/" + props.member.name.toLowerCase()}>
+          <img
+            className="w-2/3 mx-auto rounded-full"
+            src={props.member.avatar}
+          />
+        </Link>
       ) : (
         ""
       )}
