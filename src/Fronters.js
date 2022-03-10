@@ -36,18 +36,29 @@ function Member(props) {
   return (
     <div className="flex flex-col max-w-md justify-center text-center">
       {props.member.avatar ? (
-        <Link to={"/" + props.member.name.toLowerCase()}>
+        props.member.id ? (
+          <Link to={"/" + props.member.name.toLowerCase()}>
+            <img
+              className="w-2/3 mx-auto rounded-full"
+              src={props.member.avatar}
+            />
+          </Link>
+        ) : (
           <img
             className="w-2/3 mx-auto rounded-full"
             src={props.member.avatar}
           />
-        </Link>
+        )
       ) : (
         ""
       )}
-      <Link to={"/" + props.member.name.toLowerCase()}>
+      {props.member.id ? (
+        <Link to={"/" + props.member.name.toLowerCase()}>
+          <h3 className="text-lg mt-2 mb-1">{props.member.name}</h3>
+        </Link>
+      ) : (
         <h3 className="text-lg mt-2 mb-1">{props.member.name}</h3>
-      </Link>
+      )}
       <em>{props.member.pronouns}</em>
       <hr className="md:hidden my-2" />
     </div>

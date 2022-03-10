@@ -11,6 +11,11 @@
       "url": "https://github.com/starshine-sys/"
     },
     {
+      "name": "Codeberg",
+      "username": "starshine",
+      "url": "https://codeberg.org/starshine/"
+    },
+    {
       "name": "sr.ht",
       "username": "~starshine-sys",
       "url": "https://git.sr.ht/~starshine-sys/"
@@ -19,39 +24,48 @@
   "members": [
     {
       "name": "Olivia",
-      "id": "xuyzl",
       "pronouns": "she/her",
       "avatar": "https://files.starshines.xyz/pk-avatars/xuyzl.png"
     },
     {
       "name": "Hayley",
-      "id": "pnxlb",
       "pronouns": "she/her",
       "avatar": "https://files.starshines.xyz/pk-avatars/pnxlb.png"
     },
     {
       "name": "Meris",
-      "id": "qynjm",
       "pronouns": "anything but she/her",
       "avatar": "https://files.starshines.xyz/pk-avatars/qynjm.png"
     },
     {
       "name": "Mira",
-      "id": "xbbkc",
       "pronouns": "she/her",
       "avatar": "https://files.starshines.xyz/pk-avatars/xbbkc.png"
     },
     {
       "name": "Robin",
-      "id": "jlzwx",
       "pronouns": "she/her",
       "avatar": "https://files.starshines.xyz/pk-avatars/jlzwx.png"
     },
     {
       "name": "Kat",
-      "id": "jjmqu",
       "pronouns": "she/they",
       "avatar": "https://files.starshines.xyz/pk-avatars/jjmqu.png"
+    },
+    {
+      "name": "Amber",
+      "pronouns": "she/her",
+      "avatar": "https://files.starshines.xyz/pk-avatars/orjpw.jpg"
+    },
+    {
+      "name": "Bee",
+      "pronouns": "they/it",
+      "avatar": "https://files.starshines.xyz/pk-avatars/zidex.png"
+    },
+    {
+      "name": "Zoe",
+      "pronouns": "she/her",
+      "avatar": "https://files.starshines.xyz/pk-avatars/fosmg.png"
     }
   ]
 }

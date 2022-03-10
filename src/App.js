@@ -28,11 +28,13 @@ function App() {
               <Route path="/links">
                 <Links />
               </Route>
-              {data.members.map((m, i) => (
-                <Route key={i} path={"/" + m.name.toLowerCase()}>
-                  <Member id={m.id} name={m.name} />
-                </Route>
-              ))}
+              {data.members
+                .filter((m) => m.id)
+                .map((m, i) => (
+                  <Route key={i} path={"/" + m.name.toLowerCase()}>
+                    <Member id={m.id} name={m.name} />
+                  </Route>
+                ))}
               <Route path="/">
                 <Start />
               </Route>
